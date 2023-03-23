@@ -1,0 +1,79 @@
+*{  box-sizing: border-box;
+    padding:2px;
+    margin: 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;;
+
+}
+body{
+    background-image:url(https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_large_assets/fa8d73b85ad8/assets/img/home/hero_photos/J4bBEXXBIHmYLl50X1l72g.jpg);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: 100%; 
+}
+header .menu{
+    display: flex;
+ 
+}
+
+.logo{
+    width: 80px;     
+}
+#barraP1{
+    margin-left: 30px;
+}
+.container{
+    display: flex;
+    padding-left: 16px;
+    align-items: center;
+
+}
+
+.container a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.barraP{
+    color: black;
+    padding:8px;
+    width: 250px;
+    height: 40px;
+}
+.btn-Pesquisar{  
+    background-image: url(../img/favicon-new32x32.png);
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border: none;
+    
+}
+
+.menu p{
+    font-size: .9rem;
+    margin-right: 1rem;
+    margin-top: 6px;
+  
+    
+}
+.menu #span1{
+    border-style: inset;
+    border-width: 1px;
+    border-width: 3,1rem;
+}
+.menu #span2{
+    background-color: red;
+
+}
+
+/*
+body{
+    padding: 10px;
+    
+}
+*/
+
+
+/* background-image: url(https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_large_assets/fa8d73b85ad8/assets/img/home/hero_photos/J4bBEXXBIHmYLl50X1l72g.jpg);*/
