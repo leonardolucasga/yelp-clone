@@ -1,84 +1,137 @@
 *{  box-sizing: border-box;
-    padding:7px;
+    padding: 0;
     margin: 0;
+    max-width: 1380px;
     font-family: 'Open Sans', sans-serif;
+
 }
 header{
-    max-width: 130;
-    max-height: 1211;
-    background-color: transparent;
+    padding: 20px;
+    height: 500px;
+    background-image:url(https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_large_assets/fa8d73b85ad8/assets/img/home/hero_photos/J4bBEXXBIHmYLl50X1l72g.jpg);
+    background-attachment: scroll;
+    background-size: 100% 100%;
+   
 }
 .logo{
     width: 80px;
 }
 .barraP{
     height: 3.1rem;
+    padding-left: 5px;
 }
-.btn-Pesquisar{
-    background-color: red;
+.btn-Pesquisar{ 
+    border-radius: 3px;
+    background-color:#2D2E2F;
     width: 50px;
     height: 50px;
-    border-radius: 4px;
-    border: none;
+    background-image: url(../img/icons8-pesquisar-64\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
 }
 #barraP1{
     border-radius: 2px;
     width: 300px;
     margin-left: 25px;
+    border: none;
 }
 #barraP2{
+   margin-left: .922px;
+    border: none;
     width: 300px;
 }
 .container {
-    display: flex;   
+    display: flex;
     align-items: center;
+    
+    
 }
+
 .menu-Main{
-display: flex;
-justify-content: space-between;
+    display: flex;
+    
+    
 }
 .menu-Main a {
+    display: flex;
     text-decoration: none;
-
+   
 }
 .menu-Main a p{
+    padding-left: 20px;
     color: white;
     font-size: 0.9rem;
     text-align: center;
 }
+
 .menu-Main a span{
-    border-style: inset;
+    border: solid;
+    border: transparent;
+    margin-left: 40px;
     color: white;
-    border: none;
     font-size: 1rem;
 }
-#span1{
-    cursor: pointer;
-    background-color: black;
-    transition-delay: 0.1s;
 
-}
 #span2{
-    cursor: pointer;
-    border: 20px 10px 20px 10px;
+    border: solid;
+    
+    border-color: transparent;
     background-color: red;
-    border-radius: 7px;
+    border-radius: 4px;
 }
 #span1:hover{
     transition: 0.5ms;
-    background-color: bisque;
+    background-color: rgba(255, 228, 196, 0.212);
+}
+div h1{
+   font-family: 'Poppins', sans-serif;
+   font-size: 48px;
+   font-weight: bold;
+   color: #fff;
+   text-align: center;
+   margin-top: 150px;
+
+}
+ h2{
+    color: #2D2E2F;
+    font-size: 28px;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+.container2 div {
+    display: inline-block;
+    margin: 32px;
+    border: outset;
+    width: 282.13px;
+    height: 376px;
+}
+.card-1{
+    background-image: url(https://s3-media0.fl.yelpcdn.com/bphoto/7gw3pF9ODCLnAljYxf2bsw/300s.jpg);
+    background-position: center;
+    
+    
+
+}
+.card-2{
+    background-image: url(https://s3-media0.fl.yelpcdn.com/bphoto/7gw3pF9ODCLnAljYxf2bsw/300s.jpg);
+    
+
+   
+
+}
+.card-3{
+    background-image: url(https://s3-media0.fl.yelpcdn.com/bphoto/_XH0ebxe547m8k05pbtL6g/300s.jpg);
+    background-position: center;
+
 }
 
-body{
-    background-image:url(https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_large_assets/fa8d73b85ad8/assets/img/home/hero_photos/J4bBEXXBIHmYLl50X1l72g.jpg);
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-    background-size: 100%; 
-}
-    
-div h1{
-    text-align: center;
-    color: white;
-    font-size: 48px;
-    line-height:400px;
-}
+
+
